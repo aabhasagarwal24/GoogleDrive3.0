@@ -17,9 +17,9 @@ const FileUpload = ({ contract, account, provider }) => {
           data: formData,
           headers: {
             pinata_api_key: `
-            4a22c370e705155e21e6`,
+            9bebd29b48933e36de1a`,
             pinata_secret_api_key: `
-            bd4457033050fd1c2a8450b8e10bf20735a1e8fe1187d178421d5f9d28a16cbd`,
+            196d3294d4d3cf7d735d92e17be83765da96e3b70e366147d7622c90056f41c2`,
             "Content-Type": "multipart/form-data",
           },
         });

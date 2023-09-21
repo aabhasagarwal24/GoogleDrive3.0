@@ -27,10 +27,9 @@ const Display = ({ contract, account }) => {
           <a href={item} key={i} target="_blank">
             <img
               key={i}
-              src={`https://gateway.pinata.cloud/ipfs/${item.substring(6)}`}
-              alt="new"
-              className="image-list"
-            ></img>
+              src={item}
+              // className="image-list"
+             / >
           </a>
         );
       });
